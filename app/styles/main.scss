@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	background-color: #F1F1F1;
+
+	.row {
+		border-bottom: 2px solid steelblue;
+		margin-bottom: 40px;
+
+		h1, h3 {
+		 color: darken(#BDBDBD, 20%);
+		}
+
+	}
+
+	.zip {
+		margin-left: 250px;
+	}
+
+	.container {
+		ul {
+			background-color: #F2F2F2;
+			border: 1px solid black;
+			display: inline-block;
+			width: 200px;
+			height: 250px;
+
+			box-shadow: 10px 10px 5px #888888;
+
+
+			li {
+				text-align: center;
+				list-style: none;
+				padding: 5px;
+			}
+		}
+	}
+
+}
